@@ -1,0 +1,44 @@
+#landing {
+  background-color: #ebebeb; }
+  #landing h3 {
+    color: purple; }
+  #landing ul {
+    margin: 1em 1em; }
+  #landing ul li {
+    display: inline;
+    text-transform: none;
+    margin-right: 1em; }
+  #landing .col-custom {
+    color: #9c9c9c;
+    border: 1px solid #F7F1F1;
+    border-bottom: 2px solid purple;
+    font-weight: bold;
+    text-align: center;
+    background-color: #FFF;
+    padding: 1em 2.5em;
+    width: 140px;
+    height: 90px; }
+    #landing .col-custom i {
+      margin-bottom: .4em; }
+    #landing .col-custom:hover {
+      border-bottom: 10px solid purple;
+      height: 96px;
+      margin-top: -6px; }
+      #landing .col-custom:hover i {
+        color: purple; }
+      #landing .col-custom:hover p {
+        color: purple; }
+
+#landing-image {
+  height: 70vh;
+  background-size: cover;
+  background-image: url("../img/traveller.jpg");
+  position: relative; }
+  #landing-image i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff; }
+
+/*# sourceMappingURL=app.css.map */

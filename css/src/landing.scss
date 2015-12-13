@@ -1,0 +1,74 @@
+#landing {
+
+	background-color: #ebebeb;
+
+	h3{
+		color:purple;
+	}
+	ul
+	{
+		
+		margin : 1em 1em;
+	}
+
+	ul li {
+
+		display:inline;
+		text-transform: none;
+		margin-right :1em; 
+	}
+	.col-custom {
+		color:$light-font-color;
+		border:1px solid #F7F1F1;
+		border-bottom:2px solid purple;
+		font-weight:bold;
+		text-align: center;
+		
+		background-color: #FFF;
+		padding:1em 2.5em;
+		width:140px;
+		
+		height:90px;
+
+		i{
+
+			margin-bottom: .4em;
+		}
+
+
+		&:hover {
+			
+			border-bottom:10px solid purple;
+			height:96px;
+			margin-top:-6px;
+
+			i {
+				color:purple;
+
+			}
+
+			p {
+				color:purple;
+			}
+		}
+	}
+
+}
+
+#landing-image {
+	height:70vh;
+	background-size: cover;
+	background-image: url('../img/traveller.jpg');
+	position:relative;
+
+	i {
+		position:absolute;
+		left:50%;
+		top:50%;
+		transform:translateY(-50%);
+		color:#fff;
+	}
+
+}
+
+
