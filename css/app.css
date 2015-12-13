@@ -1,13 +1,21 @@
+a:hover {
+  text-decoration: none; }
+
 #landing {
   background-color: #ebebeb; }
+  #landing .logo {
+    position: relative;
+    left: -33px; }
+  #landing .logo-row {
+    margin-bottom: 15px; }
   #landing h3 {
     color: purple; }
   #landing ul {
-    margin: 1em 1em; }
+    margin-left: 97px;
+    margin-top: 22px; }
   #landing ul li {
     display: inline;
-    text-transform: none;
-    margin-right: 1em; }
+    text-transform: none; }
   #landing .col-custom {
     color: #9c9c9c;
     border: 1px solid #F7F1F1;
@@ -28,6 +36,33 @@
         color: purple; }
       #landing .col-custom:hover p {
         color: purple; }
+  #landing .form-custom {
+    display: inline; }
+  #landing .form-control-custom {
+    display: inline;
+    font-size: 11px;
+    font-weight: bold;
+    width: 39%;
+    border-radius: 0;
+    padding: 1.7em;
+    border: 1px solid #ebebeb; }
+  #landing .quick-link {
+    color: #9c9c9c;
+    font-weight: bold;
+    font-size: .9em; }
+  #landing .select-dropdown {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: purple;
+    font-weight: bold; }
+  #landing .fa-sort {
+    margin-left: -18px;
+    margin-right: 15px; }
+  #landing .fa-clock-o {
+    position: relative;
+    right: 40px;
+    top: 7px;
+    color: purple; }
 
 #landing-image {
   height: 70vh;
@@ -39,6 +74,10 @@
     left: 50%;
     top: 50%;
     transform: translateY(-50%);
-    color: #fff; }
+    color: #fff;
+    border: 5px solid #520F5A;
+    border-radius: 50%;
+    padding: 44px;
+    background-color: #520F5A; }
 
 /*# sourceMappingURL=app.css.map */
