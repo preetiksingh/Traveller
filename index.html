@@ -6,10 +6,11 @@
 	<title>Traveller.io</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/app.css">
-	<link href='https://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
+	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
 	<script type="text/javascript" src= "js/jquery.js"></script>
 	<script type="text/javascript" src= "js/bootstrap.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 	<script>
 		$('.dropdown-toggle').dropdown()
 	</script>
@@ -82,7 +83,7 @@
 		</section>
 		<section id="landing-image">
 
-			<i class="fa fa-comment fa-3x"></i>
+			<img src="img/bubble-icon.png" alt="" class="landing-bubble">
 		</section>
 	<section id="map">
 		<div class="container">
@@ -123,28 +124,49 @@
 			<h3 class="team-heading">A humble Team we are</h3>
 			<p class="team-paragraph">We'll some of us anyways</p>
 			<div class="row">
-				<div class="col-sm-2 col-sm-offset-2">
-					<img src="img/steve.jpg" alt="" class="img-responsive">
-					<p>Steve jobs</p>
-					<p>Apple Ceo</p>
-				</div>
-				<div class="col-sm-2">
-					<img src="img/bill.jpg" alt="" class="img-responsive">
-					<p>Bill gates</p>
-					<p>Microsoft Ceo</p>
-				</div>
-				<div class="col-sm-2">
-					<img src="img/mark.jpg" alt="" class="img-responsive">
-					<p>Mark Zuckersberg</p>
-					<p>Facebook Ceo</p>
-				</div>
-				<div class="col-sm-2">
-					<img src="img/elon.jpg" alt="" class="img-responsive">
-					<p>Elon Musk</p>
-					<p>Tesla Ceo</p>
-				</div>
+				<div class="col-sm-9 col-sm-offset-2">
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <!-- <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li> -->
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active carousel-img">
+
+					<img src="img/steve.jpg" alt="" >
+					<!-- <p>Steve jobs</p>
+					<p>Apple Ceo</p> -->
+				
+					<img src="img/bill.jpg" alt="" >
+					<!-- <p>Bill gates</p>
+					<p>Microsoft Ceo</p> -->
+					<img src="img/mark.jpg" alt="" >
+					<!-- <p>Mark Zuckersberg</p>
+					<p>Facebook Ceo</p> -->
+					<img src="img/elon.jpg" alt="" >
+					<!-- <p>Elon Musk</p>
+					<p>Tesla Ceo</p> -->
+    </div>
+
+    <!-- <div class="item">
+    </div>
+
+    <div class="item">
+    </div>
+
+    <div class="item">
+    </div> -->
+  </div>
+  </div>
+
 			</div>
-			<div class="row">
+			</div>
+			<div class="row winning-row">
 					<div class="col-sm-4 col-sm-offset-2 col-team">
 						<div>
 							<h4>Winning Design Awards</h4>
@@ -160,12 +182,14 @@
 						</div>
 			</div>
 		</div>	
-		<div class="row">
+		<div class="row row-team">
 					<div class="col-sm-8 col-sm-offset-2 col-team-2">
 							<h4>A full col text box sits like this</h4>
 							<p class="full-col-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
-					</div>	
+					</div>
+				</div>
+				</div>	
 	</section>
 	<footer id="footer-traveller">
 		<div class="container">
@@ -185,7 +209,7 @@
 						
 						</ul>
 
-					<ul class="footer-li">
+					<ul class="footer-social-li">
 
 						<li><i class="fa fa-twitter"></i>Twitter</li>
 						<li><i class="fa fa-facebook"></i>Facebook</li>

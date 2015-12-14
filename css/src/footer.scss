@@ -1,8 +1,8 @@
 #footer-traveller {
 
-	background-color: black;
-	margin-top:25px;
+	background-color:$dark-font-color;
 	border-top:3px solid $primary-color;
+	color:#FFF;
 
 	img {
 
@@ -13,16 +13,32 @@
 	ul.footer-li {
 
 		margin-top:23px;
+		margin-bottom:60px;
 	}
 
 	ul.footer-li li{
 		margin-right: 11px;
     display: inline;
     color: #fff;
-    border-right: 2px solid #fff;
+    border-right: 2px solid #3F3F3F;
+    padding-right: 12px;
+    font-size: 13px;
+	&:last-child {
+		border-right :none;
+	}
+	}
+	
+	ul.footer-social-li li {
+		margin-right: 11px;
+    display: inline;
+    color: #fff;
     padding-right: 12px;
     font-size: 13px;
 
-	
+    i {
+
+    	margin-right:5px;
+    }
 	}
+
 }

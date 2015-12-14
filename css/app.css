@@ -1,3 +1,6 @@
+body {
+  font-family: 'PT Sans', sans-serif; }
+
 a:hover {
   text-decoration: none; }
 
@@ -68,17 +71,17 @@ a:hover {
 #landing-image {
   height: 70vh;
   background-size: cover;
-  background-image: url("../img/traveller.jpg");
+  background-image: url("../img/slide-traveler.png");
   position: relative; }
-  #landing-image i {
+  #landing-image .landing-bubble {
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 38%;
+    transform: translateX(-50%);
     color: #fff;
     border: 5px solid #520F5A;
     border-radius: 50%;
-    padding: 44px;
+    padding: 12px;
     background-color: #520F5A; }
 
 #map {
@@ -102,6 +105,8 @@ a:hover {
 
 #team {
   background-color: #ebebeb; }
+  #team .row-team {
+    margin-bottom: 27px; }
   #team .team-heading {
     color: #9c9c9c;
     text-align: center; }
@@ -117,23 +122,51 @@ a:hover {
     background-color: #fff; }
   #team .full-col-p {
     color: #6F1DBD;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-top: -12px; }
+  #team .carousel-inner > .item > img {
+    display: inline;
+    height: 230px;
+    margin-right: 6px; }
+  #team .winning-row {
+    margin-top: 40px; }
+  #team .carousel-indicators {
+    position: absolute;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    top: 242px;
+    left: 41%;
+    list-style: none; }
 
 #footer-traveller {
-  background-color: black;
-  margin-top: 25px;
-  border-top: 3px solid #6F1DBD; }
+  background-color: #2D2D2D;
+  border-top: 3px solid #6F1DBD;
+  color: #FFF; }
   #footer-traveller img {
     position: relative;
     left: -24px; }
   #footer-traveller ul.footer-li {
-    margin-top: 23px; }
+    margin-top: 23px;
+    margin-bottom: 60px; }
   #footer-traveller ul.footer-li li {
     margin-right: 11px;
     display: inline;
     color: #fff;
-    border-right: 2px solid #fff;
+    border-right: 2px solid #3F3F3F;
     padding-right: 12px;
     font-size: 13px; }
+    #footer-traveller ul.footer-li li:last-child {
+      border-right: none; }
+  #footer-traveller ul.footer-social-li li {
+    margin-right: 11px;
+    display: inline;
+    color: #fff;
+    padding-right: 12px;
+    font-size: 13px; }
+    #footer-traveller ul.footer-social-li li i {
+      margin-right: 5px; }
 
 /*# sourceMappingURL=app.css.map */

@@ -113,18 +113,19 @@
 #landing-image {
 	height:70vh;
 	background-size: cover;
-	background-image: url('../img/traveller.jpg');
+	background-image: url('../img/slide-traveler.png');
 	position:relative;
 
-	i {
+	.landing-bubble {
 		position:absolute;
 		left:50%;
-		top:50%;
-		transform:translateY(-50%);
+		top:38%;
+		// transform:translateY(-50%);
+		transform:translateX(-50%);
 		color:#fff;
 		border: 5px solid #520F5A;
     border-radius: 50%;
-    padding: 44px;
+    padding: 12px;
     background-color: #520F5A;
 	}
 

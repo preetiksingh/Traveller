@@ -1,6 +1,10 @@
 #team {
 
 	background-color: $lighter-font-color;
+
+	.row-team {
+		margin-bottom : 27px;
+	}
 	
 	.team-heading {
 		
@@ -28,5 +32,29 @@
 	.full-col-p {
 		color:$primary-color;
 		font-weight: bold;
+		margin-top: -12px;
+		}
+
+	.carousel-inner>.item>img {
+		display: inline;
+		height: 230px;
+    margin-right: 6px;
 	}
+
+	.winning-row {
+		margin-top:40px;
+	}
+
+	.carousel-indicators {
+		position: absolute;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+	  top: 242px;
+    left: 41%;
+    list-style: none;
+  }
+	
 }
