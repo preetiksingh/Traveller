@@ -1,0 +1,28 @@
+#footer-traveller {
+
+	background-color: black;
+	margin-top:25px;
+	border-top:3px solid $primary-color;
+
+	img {
+
+		position: relative;
+    left: -24px;
+	}
+
+	ul.footer-li {
+
+		margin-top:23px;
+	}
+
+	ul.footer-li li{
+		margin-right: 11px;
+    display: inline;
+    color: #fff;
+    border-right: 2px solid #fff;
+    padding-right: 12px;
+    font-size: 13px;
+
+	
+	}
+}

@@ -1,0 +1,20 @@
+#map {
+
+	background-color: $dark-font-color;
+	color:$font-color-white;
+
+
+	.map-heading{
+	text-align: center;
+	}
+
+	.map-head-paragraph {
+		color:$primary-color;
+		font-weight:bold;
+		text-align: center;
+	}
+	.map-col-custom {
+		width:259px;
+	}
+
+}

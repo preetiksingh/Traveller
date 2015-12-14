@@ -9,17 +9,16 @@ a:hover {
   #landing .logo-row {
     margin-bottom: 15px; }
   #landing h3 {
-    color: purple; }
+    color: #6F1DBD; }
   #landing ul {
     margin-left: 97px;
     margin-top: 22px; }
   #landing ul li {
-    display: inline;
-    text-transform: none; }
+    display: inline; }
   #landing .col-custom {
     color: #9c9c9c;
     border: 1px solid #F7F1F1;
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid #6F1DBD;
     font-weight: bold;
     text-align: center;
     background-color: #FFF;
@@ -29,13 +28,13 @@ a:hover {
     #landing .col-custom i {
       margin-bottom: .4em; }
     #landing .col-custom:hover {
-      border-bottom: 10px solid purple;
+      border-bottom: 10px solid #6F1DBD;
       height: 96px;
       margin-top: -6px; }
       #landing .col-custom:hover i {
-        color: purple; }
+        color: #6F1DBD; }
       #landing .col-custom:hover p {
-        color: purple; }
+        color: #6F1DBD; }
   #landing .form-custom {
     display: inline; }
   #landing .form-control-custom {
@@ -50,10 +49,12 @@ a:hover {
     color: #9c9c9c;
     font-weight: bold;
     font-size: .9em; }
+  #landing .map-icon {
+    color: #9c9c9c; }
   #landing .select-dropdown {
     margin-left: 20px;
     margin-right: 20px;
-    color: purple;
+    color: #6F1DBD;
     font-weight: bold; }
   #landing .fa-sort {
     margin-left: -18px;
@@ -62,7 +63,7 @@ a:hover {
     position: relative;
     right: 40px;
     top: 7px;
-    color: purple; }
+    color: #6F1DBD; }
 
 #landing-image {
   height: 70vh;
@@ -79,5 +80,60 @@ a:hover {
     border-radius: 50%;
     padding: 44px;
     background-color: #520F5A; }
+
+#map {
+  background-color: #2D2D2D;
+  color: #FFF; }
+  #map .map-heading {
+    text-align: center; }
+  #map .map-head-paragraph {
+    color: #6F1DBD;
+    font-weight: bold;
+    text-align: center; }
+  #map .map-col-custom {
+    width: 259px; }
+
+#display-screen {
+  background-color: #222222;
+  height: 500px;
+  overflow-y: hidden; }
+  #display-screen img {
+    padding-top: 3em; }
+
+#team {
+  background-color: #ebebeb; }
+  #team .team-heading {
+    color: #9c9c9c;
+    text-align: center; }
+  #team .team-paragraph {
+    color: #9c9c9c;
+    text-align: center; }
+  #team .col-team {
+    background-color: #fff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 27.4em; }
+  #team .col-team-2 {
+    background-color: #fff; }
+  #team .full-col-p {
+    color: #6F1DBD;
+    font-weight: bold; }
+
+#footer-traveller {
+  background-color: black;
+  margin-top: 25px;
+  border-top: 3px solid #6F1DBD; }
+  #footer-traveller img {
+    position: relative;
+    left: -24px; }
+  #footer-traveller ul.footer-li {
+    margin-top: 23px; }
+  #footer-traveller ul.footer-li li {
+    margin-right: 11px;
+    display: inline;
+    color: #fff;
+    border-right: 2px solid #fff;
+    padding-right: 12px;
+    font-size: 13px; }
 
 /*# sourceMappingURL=app.css.map */
