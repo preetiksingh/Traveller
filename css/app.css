@@ -62,7 +62,7 @@ a:hover {
   #landing .fa-sort {
     margin-left: -18px;
     margin-right: 15px;
-    color: #6F1DBD; }
+    color: #6F1DBD x; }
   #landing .fa-clock-o {
     position: relative;
     right: 40px;
@@ -117,15 +117,18 @@ a:hover {
     letter-spacing: 2px; }
 
 #team {
-  background-color: #ebebeb; }
+  background-color: #ebebeb;
+  padding-top: 36px; }
   #team .row-team {
     padding-bottom: 33px; }
   #team .team-heading {
     color: #9c9c9c;
-    text-align: center; }
+    text-align: center;
+    letter-spacing: 4px; }
   #team .team-paragraph {
     color: #9c9c9c;
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 20px; }
   #team .col-team {
     background-color: #fff;
     margin-right: 15px;

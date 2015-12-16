@@ -1,6 +1,7 @@
 #team {
 
 	background-color: $lighter-font-color;
+	padding-top: 36px;
 
 	.row-team {
 		padding-bottom: 33px;
@@ -10,11 +11,13 @@
 		
 		color: #9c9c9c;
 		text-align: center;
+		letter-spacing: 4px;
 
 		}
 	.team-paragraph {
 		color: #9c9c9c;
 		text-align: center;
+		padding-bottom:20px;
 	}
 	
 	.col-team {
