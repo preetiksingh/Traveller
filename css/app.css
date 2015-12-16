@@ -113,7 +113,7 @@ a:hover {
   #display-screen .display-heading {
     position: relative;
     top: 28em;
-    color: #fff;
+    color: #FFF;
     letter-spacing: 2px; }
 
 #team {
@@ -130,7 +130,7 @@ a:hover {
     text-align: center;
     padding-bottom: 20px; }
   #team .col-team {
-    background-color: #fff;
+    background-color: #FFF;
     margin-right: 15px;
     margin-bottom: 15px;
     width: 27.4em;
@@ -141,9 +141,9 @@ a:hover {
       top: 1px;
       background-color: purple;
       padding: 7px 10px;
-      color: white; }
+      color: #FFF; }
   #team .col-team-2 {
-    background-color: #fff;
+    background-color: #FFF;
     padding: 36px;
     width: 67%; }
   #team .full-col-p {
@@ -201,19 +201,16 @@ a:hover {
   #footer-traveller ul.footer-li li {
     margin-right: 11px;
     display: inline;
-    color: #fff;
+    color: #FFF;
     border-right: 2px solid #3F3F3F;
     padding-right: 12px;
     font-size: 13px; }
-    #footer-traveller ul.footer-li li:hover {
-      border-bottom: 2px solid #6F1DBD;
-      padding-bottom: 5px; }
     #footer-traveller ul.footer-li li:last-child {
       border-right: none; }
   #footer-traveller ul.footer-social-li li {
     margin-right: 11px;
     display: inline;
-    color: #fff;
+    color: #FFF;
     padding-right: 12px;
     font-size: 13px; }
     #footer-traveller ul.footer-social-li li i {
@@ -222,10 +219,13 @@ a:hover {
     padding-left: 0px; }
   #footer-traveller ul.footer-li-2 li {
     display: inline;
-    color: #fff;
+    color: #FFF;
     font-size: 13px;
     margin-right: 15px; }
   #footer-traveller .footer-p {
     color: #9c9c9c; }
+  #footer-traveller .span-border:hover {
+    border-bottom: 2px solid #6F1DBD;
+    padding-bottom: 5px; }
 
 /*# sourceMappingURL=app.css.map */

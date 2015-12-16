@@ -20,17 +20,17 @@
 	ul.footer-li li{
 		margin-right: 11px;
     display: inline;
-    color: #fff;
+    color: $font-color-white;
     border-right: 2px solid #3F3F3F;
     padding-right: 12px;
     font-size: 13px;
 
-		&:hover {
+		// &:hover {
 			
-			border-bottom:2px solid $primary-color;
-			padding-bottom: 5px;
+		// 	border-bottom:2px solid $primary-color;
+		// 	padding-bottom: 5px;
 			
-		}
+		// }
 
 		&:last-child {
 			border-right :none;
@@ -40,7 +40,7 @@
 	ul.footer-social-li li {
 		margin-right: 11px;
     display: inline;
-    color: #fff;
+    color: $font-color-white;
     padding-right: 12px;
     font-size: 13px;
 
@@ -60,11 +60,19 @@
 	ul.footer-li-2 li {
 
     display: inline;
-    color: #fff;
+    color: $font-color-white;
     font-size: 13px;
     margin-right:15px;
 	}
 	.footer-p {
 		color:$light-font-color;
+	}
+
+	.span-border {
+
+		&:hover{
+		border-bottom:2px solid $primary-color;
+			padding-bottom: 5px;
+		}
 	}
 }

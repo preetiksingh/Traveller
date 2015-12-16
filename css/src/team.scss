@@ -9,19 +9,19 @@
 	
 	.team-heading {
 		
-		color: #9c9c9c;
+		color: $light-font-color;
 		text-align: center;
 		letter-spacing: 4px;
 
 		}
 	.team-paragraph {
-		color: #9c9c9c;
+		color:$light-font-color;
 		text-align: center;
 		padding-bottom:20px;
 	}
 	
 	.col-team {
-		background-color: #fff;
+		background-color: $font-color-white;
 		margin-right:15px;
 		margin-bottom:15px;
 		width:27.4em;
@@ -34,13 +34,13 @@
     top: 1px;
     background-color: purple;
     padding: 7px 10px;
-    color: white;
+    color: $font-color-white;
 		}
 
 	}
 
 	.col-team-2 {
-		background-color: #fff;
+		background-color: $font-color-white;
     padding: 36px;
     width: 67%;
 	}
