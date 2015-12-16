@@ -61,7 +61,8 @@ a:hover {
     font-weight: bold; }
   #landing .fa-sort {
     margin-left: -18px;
-    margin-right: 15px; }
+    margin-right: 15px;
+    color: #6F1DBD; }
   #landing .fa-clock-o {
     position: relative;
     right: 40px;
@@ -86,7 +87,8 @@ a:hover {
 
 #map {
   background-color: #2D2D2D;
-  color: #FFF; }
+  color: #FFF;
+  padding-bottom: 65px; }
   #map .map-heading {
     text-align: center;
     font-size: 29px;
@@ -108,6 +110,11 @@ a:hover {
   text-align: center; }
   #display-screen img {
     padding-top: 3em; }
+  #display-screen .display-heading {
+    position: relative;
+    top: 28em;
+    color: #fff;
+    letter-spacing: 2px; }
 
 #team {
   background-color: #ebebeb; }
