@@ -2,348 +2,326 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Traveller.io</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/app.css">
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
-	<script type="text/javascript" src= "js/jquery.js"></script>
-	<script type="text/javascript" src= "js/bootstrap.min.js"></script>
-	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
-	<script>
-		$('.dropdown-toggle').dropdown()
-	</script>
+  <meta charset="utf-8">
+  <title>Traveller.io</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/app.css">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
+  <script type="text/javascript" src= "js/jquery.js"></script>
+  <script type="text/javascript" src= "js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script>
+    $('.dropdown-toggle').dropdown()
+  </script>
 </head>
 <body>
-	<section id="landing">
-		<div class="container">
-			<div class="row logo-row">
-				<div class="col-sm-2 col-sm-offset-2 logo">
-					<img src="img/traveler_logo.png" alt="">
+  <section id="landing">
+    <div class="container">
+      <div class="row logo-row">
+        <div class="col-sm-2  logo">
+          <img src="img/traveler_logo.png" alt="">
 
-				</div>
-				<div class="col-sm-8">
-					<ul>
+        </div>
+        <div class="col-sm-10">
+          <ul>
+            <li class="quick-link">Quick Links</li>
+            <i class="fa fa-map-marker map-icon"></i>
+            <!-- Single button -->
+            <div class="btn-group">
+              <a class=" dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="select-dropdown">Select dropdown</span>
+                <i class="fa fa-sort"></i> 
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+              </ul>
+            </div>
+            <li>
+              <div class="form-group has-success has-feedback form-custom">
+                <input type="text" placeholder="search for something here" class="form-control form-control-custom" >
+                <i class="fa fa-clock-o fa-2x"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row menu-row">
 
-						<li class="quick-link">Quick Links</li>
-						<i class="fa fa-map-marker map-icon"></i>
-						
-						<!-- Single button -->
-						<div class="btn-group">
-							<a class=" dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<span class="select-dropdown">Select dropdown</span>
-								<i class="fa fa-sort"></i> 
+        <div class="col-md-2 col-custom ">
+          <i class="fa fa-globe fa-2x"></i>
+          <p>TravelGuide</p></div>
+          <div class="col-md-2 col-custom">
+            <i class="fa fa-paper-plane fa-2x"></i>
+            <p>Services</p>
+          </div>
+          <div class="col-md-2 col-custom">
+            <i class="fa fa-file-text fa-2x"></i>
+            <p>About</p>
+          </div>
+          <div class="col-md-2 col-custom">
+            <i class="fa fa-map-marker fa-2x"></i>
+            <p>The Tour </p>
+          </div>
+          <div class="col-md-2 col-custom">
+            <i class="fa fa-globe fa-2x"></i>
+            <p>How To</p>
+          </div>
+          <div class="col-md-2 col-custom">
+            <i class="fa fa-file-text fa-2x"></i>
+            <p>Contact</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="landing-image">
+      <img src="img/bubble-icon.png" alt="" class="landing-bubble">
+    </section>
+    <section id="map">
+      <div class="container">
+        <h2 class="map-heading">Anywhere anytime, we are here to help</h2>
+        <p class="map-head-paragraph">And we mean that</p>
+        <div class="row">
+          <div class=" col-sm-12 text-center">
+            <img src="img/map.png" alt="map" >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-offset-2 col-sm-10 icon-move">
+            <img src="img/clock-icon.png" alt="map" class="img-icons">
+            <div class="divider"></div>
+            <img src="img/cloud-icon.png" alt="map" class="img-icons">
+            <div class="divider"></div>
 
-							</a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Action</a></li>
-								<li><a href="#">Another action</a></li>
+            <!-- <img src="img/cloud-icon.png" alt="map" class="img-icons"><hr class="right" /> -->
+            <img src="img/box-icon.png" alt="map" class="img-icons">
+          </div>
 
-							</ul>
-						</div>
-						<li>
-							<div class="form-group has-success has-feedback form-custom">
-								<input type="text" placeholder="search for something here" class="form-control form-control-custom" >
-								<i class="fa fa-clock-o fa-2x"></i>
-							</div>
-						</li>
-					</ul>
-				</div>
-
-			</div>
-			<div class="row">
-
-				<div class="col-md-1 col-custom col-md-offset-2">
-					<i class="fa fa-globe fa-2x"></i>
-					<p>TravelGuide</p></div>
-					<div class="col-md-1 col-custom">
-						<i class="fa fa-paper-plane fa-2x"></i>
-						<p>Services</p>
-					</div>
-					<div class="col-md-1 col-custom">
-						<i class="fa fa-file-text fa-2x"></i>
-						<p>About</p>
-					</div>
-					<div class="col-md-1 col-custom">
-						<i class="fa fa-map-marker fa-2x"></i>
-						<p>The Tour	</p>
-					</div>
-					<div class="col-md-1 col-custom">
-						<i class="fa fa-globe fa-2x"></i>
-						<p>How To</p>
-					</div>
-					<div class="col-md-1 col-custom">
-						<i class="fa fa-file-text fa-2x"></i>
-						<p>Contact</p>
-					</div>
-
-				</div>
-			</div>
-		</section>
-		<section id="landing-image">
-
-			<img src="img/bubble-icon.png" alt="" class="landing-bubble">
-		</section>
-	<section id="map">
-		<div class="container">
-			<h3 class="map-heading">Anywhere anytime, we are here to help</h3>
-			<p class="map-head-paragraph">And we mean that</p>
-			<div class="row">
-				<div class="col-sm-offset-2 col-sm-8">
-			<img src="img/map.png" alt="map" class="img-responsive">
-			</div>
-				</div>
-					<div class="row">
-						<div class="col-sm-offset-3 col-sm-7">
-							<img src="img/clock-icon.png" alt="map" class="img-icons">
-							<img src="img/cloud-icon.png" alt="map" class="img-icons">
-							<img src="img/box-icon.png" alt="map" class="img-icons">
-						</div>
-					</div>
-			<div class="row">
-				<div class="col-sm-3 col-sm-offset-2 map-col-custom">
-					<h4>Save Time</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
-				</div>
-				<div class="col-sm-3 map-col-custom">
-					<h4>Win over the Team</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
-				</div>
-				<div class="col-sm-3 map-col-custom">
-					<h4>Design features</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="display-screen">
-		<div class="container">
-			<div class="display-heading">
-			<h2>A simple beginning lead to big ideas</h2>
-			<p>We started small but grew quickly </p>
-			</div>
-			<img src="img/monitor-screen.png" alt="" class="img-responsive">
-			
-			
-			
-		</div>
-	</section>
-	<section id="team">
-		<div class="container">
-			<h2 class="team-heading">A humble Team we are</h2>
-			<p class="team-paragraph">We'll some of us anyways</p>
-			<div class="row row-custom2">
-				<div class="col-sm-8 col-sm-offset-2">
-						<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-     <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active carousel-img">
-    			<div class="row">
-    				<div class="col-sm-3 ">
-    					<img src="img/team-person1.png" alt="" class="img-responsive">
-    					<i class="fa fa-twitter"></i>
-    					<p>Steve jobs</p>
-    					<p>Apple Ceo</p>
-    				</div>
-    				<div class="col-sm-3">
-    					<img src="img/team-person2.png" alt="" class="img-responsive">
-    					<i class="fa fa-twitter"></i>
-    					<p>Bill Gates</p>
-    					<p>Microsoft</p>
-    				</div>
-    				<div class="col-sm-3">
-    					<img src="img/team-person3.png" alt="" class="img-responsive">
-    					<i class="fa fa-twitter"></i>
-    					<p>Mark</p>
-    					<p>Facebook Ceo</p>
-    				</div>
-    				<div class="col-sm-3">
-    					<img src="img/team-person4.png" alt="" class="img-responsive">
-    					<i class="fa fa-twitter"></i>
-    					<p>Elon</p>
-    					<p>Tesla</p>
-    				</div>
-    			</div>
-    			</div>
-
-    			 <div class="item  carousel-img">
-    			<div class="row">
-    				<div class="col-sm-3 ">
-    					<img src="img/team-person1.png" alt="" class="img-responsive">
-    					<i class="fa fa-twitter"></i>
-    					<p>Steve jobs</p>
-    					<p>Apple Ceo</p>
-    				</div>
-    				<div class="col-sm-3">
-    					<img src="img/team-person2.png" alt="" class="img-responsive">
-    					<i class="fa fa-twitter"></i>
-    					<p>Bill Gates</p>
-    					<p>Microsoft</p>
-    				</div>
-    				<div class="col-sm-3">
-    					<img src="img/team-person3.png" alt="" class="img-responsive">
-    					<i class="fa fa-twitter"></i>
-    					<p>Mark</p>
-    					<p>Facebook Ceo</p>
-    				</div>
-    				<div class="col-sm-3">
-    					<img src="img/team-person4.png" alt="" class="img-responsive">
-    					<i class="fa fa-twitter"></i>
-    					<p>Elon</p>
-    					<p>Tesla</p>
-    				</div>
-    			</div>
-
+        </div>
+      </div>
+      <div class="row">
+      <div class="container">
+        <div class="col-sm-3 col-sm-offset-2 map-col-custom">
+          <h4>Save Time</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
+        </div>
+        <div class="col-sm-3 map-col-custom">
+          <h4>Win over the Team</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
+        </div>
+        <div class="col-sm-3 map-col-custom">
+          <h4>Design features</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
+        </div>
+      </div>
     </div>
-
-
-    			 <div class="item  carousel-img">
-    			<div class="row">
-    				<div class="col-sm-3 ">
-    					<img src="img/team-person1.png" alt="" class="img-responsive">
-    					<i class="fa fa-twitter"></i>
-    					<p>Steve jobs</p>
-    					<p>Apple Ceo</p>
-    				</div>
-    				<div class="col-sm-3">
-    					<img src="img/team-person2.png" alt="" class="img-responsive">
-    					<i class="fa fa-twitter"></i>
-    					<p>Bill Gates</p>
-    					<p>Microsoft</p>
-    				</div>
-    				<div class="col-sm-3">
-    					<img src="img/team-person3.png" alt="" class="img-responsive">
-    					<i class="fa fa-twitter"></i>
-    					<p>Mark</p>
-    					<p>Facebook Ceo</p>
-    				</div>
-    				<div class="col-sm-3">
-    					<img src="img/team-person4.png" alt="" class="img-responsive">
-    					<i class="fa fa-twitter"></i>
-    					<p>Elon</p>
-    					<p>Tesla</p>
-    				</div>
-    			</div>
-
+  </section>
+  <section id="display-screen">
+    <div class="container">
+      <div class="display-heading">
+        <h2>A simple beginning lead to big ideas</h2>
+        <p>We started small but grew quickly </p>
+      </div>
+      <img src="img/monitor-screen.png" alt="" class="img-responsive">
     </div>
-
-
-    			 <div class="item  carousel-img">
-    			<div class="row">
-    				<div class="col-sm-3 ">
-    					<img src="img/team-person1.png" alt="" class="img-responsive">
-    					<i class="fa fa-twitter"></i>
-    					<p>Steve jobs</p>
-    					<p>Apple Ceo</p>
-    				</div>
-    				<div class="col-sm-3">
-    					<img src="img/team-person2.png" alt="" class="img-responsive">
-    					<i class="fa fa-twitter"></i>
-    					<p>Bill Gates</p>
-    					<p>Microsoft</p>
-    				</div>
-    				<div class="col-sm-3">
-    					<img src="img/team-person3.png" alt="" class="img-responsive">
-    					<i class="fa fa-twitter"></i>
-    					<p>Mark</p>
-    					<p>Facebook Ceo</p>
-    				</div>
-    				<div class="col-sm-3">
-    					<img src="img/team-person4.png" alt="" class="img-responsive">
-    					<i class="fa fa-twitter"></i>
-    					<p>Elon</p>
-    					<p>Tesla</p>
-    				</div>
-    			</div>
-
-    </div>
-
-
-  </div>
-  </div>
-
-			</div>
-			</div>
-			<div class="row winning-row">
-					<div class="col-sm-4 col-sm-offset-2 col-team">
-						<div>
-							<i class="fa fa-plus"></i>
-							<h3>Winning Design Awards</h3>
-							<p class="full-col-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
-						</div>
-					</div>
-					<div class="col-sm-4 col-team">
-						<div>
-							<i class="fa fa-plus"></i>
-							<h3>Badass Features</h3>
-							<p class="full-col-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
-						</div>
-			</div>
-		</div>	
-		<div class="row row-team">
-					<div class="col-sm-7 col-sm-offset-2 col-team-2">
-							<h3>A full col text box sits like this</h3>
-							<p class="full-col-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
-					</div>
-				</div>
-				</div>	
-	</section>
-	<footer id="footer-traveller">
-		<div class="container">
-			<div class="row logo-row">
-				<div class="col-sm-4 col-sm-offset-2 logo-footer">
-					<img src="img/logo-footer.png" alt="" class="img-responsive">
-					<p class="full-col-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
-				</div>
-				<div class="col-sm-5">
-					<ul class="footer-li">
-
-						<li><span class="span-border">Portfoli</span>o</li>
-						<li><span class="span-border">Service</span>s</li>
-						<li><span class="span-border">Staff</span></li>
-						<li><span class="span-border">Article</span>s</li>
-						<li><span class="span-border">Contac</span>t</li>
-						
-						</ul>
-
-					<ul class="footer-social-li">
-
-						<li><i class="fa fa-twitter"></i>Twitter</li>
-						<li><i class="fa fa-facebook"></i>Facebook</li>
-						<li><i class="fa fa-rss"></i>Rss</li>
-						<li><i class="fa fa-envelope"></i>Mail</li>
-						</ul>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-6 col-sm-offset-2">
-				<ul class="footer-li-2">
-
-						<li>About Us</li>
-						<li>Footer Links Home</li>
-						<li>Privacy</li>
-						<li>Icons by https://fortawesome.github.io/</li>
-						</ul>
-				<p class="footer-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
-
-			</div>
-		</div>
-	</footer>
-		
-	</body>
-</html>
+  </section>
+  <section id="team">
+    <div class="container">
+      <h2 class="team-heading">A humble Team we are</h2>
+      <p class="team-paragraph">We'll some of us anyways</p>
+      <div class="row row-custom2">
+        <div class="col-sm-12">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active carousel-img">
+                <div class="row">
+                  <div class="col-sm-3 team-member-container">
+                    <img src="img/team-person1.png" alt="" >
+                    <i class="fa fa-twitter"></i>
+                    <p>Steve jobs</p>
+                    <p>Apple Ceo</p>
+                  </div>
+                  <div class="col-sm-3 team-member-container">
+                    <img src="img/team-person2.png" alt="" >
+                    <i class="fa fa-twitter"></i>
+                    <p>Bill Gates</p>
+                    <p>Microsoft</p>
+                  </div>
+                  <div class="col-sm-3 team-member-container">
+                    <img src="img/team-person3.png" alt="" class=" ">
+                    <i class="fa fa-twitter"></i>
+                    <p>Mark</p>
+                    <p>Facebook Ceo</p>
+                  </div>
+                  <div class="col-sm-3 team-member-container">
+                    <img src="img/team-person4.png" alt="" class="">
+                    <i class="fa fa-twitter"></i>
+                    <p>Elon</p>
+                    <p>Tesla</p> 
+                  </div>
+                </div>
+              </div>
+              <div class="item carousel-img">
+                <div class="row">
+                  <div class="col-sm-3 team-member-container">
+                    <img src="img/team-person1.png" alt="" >
+                    <i class="fa fa-twitter"></i>
+                    <p>Steve jobs</p>
+                    <p>Apple Ceo</p>
+                  </div>
+                  <div class="col-sm-3 team-member-container">
+                    <img src="img/team-person2.png" alt="" >
+                    <i class="fa fa-twitter"></i>
+                    <p>Bill Gates</p>
+                    <p>Microsoft</p>
+                  </div>
+                  <div class="col-sm-3 team-member-container">
+                    <img src="img/team-person3.png" alt="" class=" ">
+                    <i class="fa fa-twitter"></i>
+                    <p>Mark</p>
+                    <p>Facebook Ceo</p>
+                  </div>
+                  <div class="col-sm-3 team-member-container">
+                    <img src="img/team-person4.png" alt="" class="">
+                    <i class="fa fa-twitter"></i>
+                    <p>Elon</p>
+                    <p>Tesla</p> 
+                  </div>
+                </div>
+              </div>
+              <div class="item  carousel-img">
+                <div class="row">
+                  <div class="col-sm-3 team-member-container">
+                    <img src="img/team-person1.png" alt="" >
+                    <i class="fa fa-twitter"></i>
+                    <p>Steve jobs</p>
+                    <p>Apple Ceo</p>
+                  </div>
+                  <div class="col-sm-3 team-member-container">
+                    <img src="img/team-person2.png" alt="" >
+                    <i class="fa fa-twitter"></i>
+                    <p>Bill Gates</p>
+                    <p>Microsoft</p>
+                  </div>
+                  <div class="col-sm-3 team-member-container">
+                    <img src="img/team-person3.png" alt="" class=" ">
+                    <i class="fa fa-twitter"></i>
+                    <p>Mark</p>
+                    <p>Facebook Ceo</p>
+                  </div>
+                  <div class="col-sm-3 team-member-container">
+                    <img src="img/team-person4.png" alt="" class="">
+                    <i class="fa fa-twitter"></i>
+                    <p>Elon</p>
+                    <p>Tesla</p> 
+                  </div>
+                </div>
+              </div>
+              <div class="item carousel-img">
+                <div class="row">
+                  <div class="col-sm-3 team-member-container">
+                    <img src="img/team-person1.png" alt="" >
+                    <i class="fa fa-twitter"></i>
+                    <p>Steve jobs</p>
+                    <p>Apple Ceo</p>
+                  </div>
+                  <div class="col-sm-3 team-member-container">
+                    <img src="img/team-person2.png" alt="" >
+                    <i class="fa fa-twitter"></i>
+                    <p>Bill Gates</p>
+                    <p>Microsoft</p>
+                  </div>
+                  <div class="col-sm-3 team-member-container">
+                    <img src="img/team-person3.png" alt="" class=" ">
+                    <i class="fa fa-twitter"></i>
+                    <p>Mark</p>
+                    <p>Facebook Ceo</p>
+                  </div>
+                  <div class="col-sm-3 team-member-container">
+                    <img src="img/team-person4.png" alt="" class="">
+                    <i class="fa fa-twitter"></i>
+                    <p>Elon</p>
+                    <p>Tesla</p> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row winning-row">
+        <div class="col-sm-6 col-team remove-padding-left">
+          <div class="winning-text">
+            <i class="fa fa-plus move-plus"></i>
+            <h2>Winning Design Awards</h2>
+            <p class="full-col-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-team remove-padding-right">
+          <div class="winning-text" >
+            <i class="fa fa-plus move-plus1"></i>
+            <h2>Badass Features</h2>
+            <p class="full-col-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
+          </div>
+        </div>
+      </div>  
+      <div class="row row-team">
+        <div class="col-sm-12  col-team-2">
+          <h2>A full col text box sits like this</h2>
+          <p class="full-col-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <footer id="footer-traveller">
+    <div class="container">
+      <div class="row logo-row">
+        <div class="col-sm-6  logo-footer">
+          <img src="img/logo-footer.png" alt="" class="img-responsive">
+          <p class="full-col-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
+        </div>
+        <div class="col-sm-6">
+          <ul class="footer-li">
+            <li><span class="span-border">Portfoli</span>o</li>
+            <li><span class="span-border">Service</span>s</li>
+            <li><span class="span-border">Staff</span></li>
+            <li><span class="span-border">Article</span>s</li>
+            <li><span class="span-border">Contac</span>t</li>
+          </ul>
+          <ul class="footer-social-li">
+            <li><i class="fa fa-twitter"></i>Twitter</li>
+            <li><i class="fa fa-facebook"></i>Facebook</li>
+            <li><i class="fa fa-rss"></i>Rss</li>
+            <li><i class="fa fa-envelope"></i>Mail</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 ">
+          <ul class="footer-li-2">
+            <li>About Us</li>
+            <li>Footer Links Home</li>
+            <li>Privacy</li>
+            <li>Icons by https://fortawesome.github.io/</li>
+          </ul>
+          <p class="footer-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam accusantium tempore cumque officia nobis. Cumque optio beatae itaque earum, delectus ratione impedit consequatur, nam! Sint, amet, neque. Laboriosam, dolore.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  </html>
 
 
 

@@ -13,63 +13,72 @@
 		text-align: center;
 		letter-spacing: 4px;
 
-		}
-	.team-paragraph {
-		color:$light-font-color;
-		text-align: center;
-		padding-bottom:20px;
-	}
-	
-	.col-team {
-		background-color: $font-color-white;
-		margin-right:15px;
-		margin-bottom:15px;
-		width:27.4em;
-		padding:40px;
+  }
+  .team-paragraph {
+    color:$light-font-color;
+    text-align: center;
+    padding-bottom:20px;
+  }
 
-		i {
+  .col-team {
 
-		position: absolute;
-    left: 1px;
-    top: 1px;
-    background-color: purple;
-    padding: 7px 10px;
-    color: $font-color-white;
-		}
+    margin-bottom:15px;
+    // width:27.4em;
 
-	}
+    .move-plus {
+      position: absolute;
+      top: 3px;
+      background-color: purple;
+      padding: 7px 10px;
+      color: $font-color-white;
+      left:3px;
+    }
+    .move-plus1 {
+      position: absolute;
+      top: 3px;
+      left:10px;
+      background-color: purple;
+      padding: 7px 10px;
+      color: $font-color-white;
+    }
+  }
 
-	.col-team-2 {
-		background-color: $font-color-white;
+  .winning-text {
+    background-color: #fff;
+    /* padding: 9px; */
+    padding: 63px;
+    border: 2px solid #f2eded;
+  }
+
+  .col-team-2 {
+    background-color: $font-color-white;
     padding: 36px;
-    width: 67%;
-	}
+  }
 
-	.full-col-p {
-		color: $primary-color;
+  .full-col-p {
+    color: $primary-color;
     font-weight: bold;
     margin-top: 18px;
     margin-bottom: 30px;
     line-height: 22px;
-		}
+  }
 
-	.carousel-inner>.item>img {
-		display: inline;
-		#height: 230px;
-    #margin-right: 6px;
-	}
+  .carousel-inner .item img {
+    display: inline;
+    width:100%;
+  }
 
-	.winning-row {
-		margin-top:40px;
-	}
+  .winning-row {
+    margin-top:40px;
+  }
 
-	.carousel-indicators {
-		top: 220px;
+  .carousel-indicators {
+    top: 353px;
     
     li 
-   {
-    background-color: $dark-font-color;
-  }
+    {
+      background-color: $light-font-color;
+    }
 
     .active {
     	background-color: purple;
@@ -84,16 +93,16 @@
   .item {
    i {
 
-  	top: -39px;
-    left: 119px;
-    position: relative;
-    background-color: purple;
-    padding: 7px 11px;
-    color: white;
-    font-size: 18px;
-  }
+     top: -43px;
+     left: 237px;
+     position: relative;
+     background-color: purple;
+     padding: 7px 11px;
+     color: white;
+     font-size: 18px;
+   }
 
-		p {
+   p {
     position: relative;
     top: -25px;
 
@@ -102,18 +111,33 @@
     	margin-bottom: 0px;
     	font-size:16px;
     	color:#7B7B7B;
+      margin-left :16px;
     }
-	
-		&:last-child {
-			font-size: 13px;
-			color:#777;
-			 
-		}
-	}
+
+    &:last-child {
+     font-size: 13px;
+     color:#777;
+     margin-left :16px; 
+
+   }
+ }
 
 }
 
+.remove-padding-left {
+ padding-left:0;
+ padding-right: 7px;
+}
+.remove-padding-right {
+  padding-right: 0;
+  padding-left:7px;
+}
 
+.team-member-container{
+  
+ 
+  padding-right:3px;
+  padding-left:4px;
+}
 
-	
 }
